@@ -14,6 +14,7 @@
 		C034A2921BDA133A00A998FD /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C034A2911BDA133A00A998FD /* Images.xcassets */; };
 		C034A2951BDA133A00A998FD /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = C034A2931BDA133A00A998FD /* LaunchScreen.xib */; };
 		C034A2A11BDA133A00A998FD /* Objective_cCallCPlusPlusTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C034A2A01BDA133A00A998FD /* Objective_cCallCPlusPlusTests.m */; };
+		C034A2AC1BDA13A100A998FD /* GreateHello.mm in Sources */ = {isa = PBXBuildFile; fileRef = C034A2AB1BDA13A100A998FD /* GreateHello.mm */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,8 @@
 		C034A29A1BDA133A00A998FD /* Objective-cCallCPlusPlusTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Objective-cCallCPlusPlusTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C034A29F1BDA133A00A998FD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C034A2A01BDA133A00A998FD /* Objective_cCallCPlusPlusTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Objective_cCallCPlusPlusTests.m; sourceTree = "<group>"; };
+		C034A2AA1BDA13A100A998FD /* GreateHello.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GreateHello.h; sourceTree = "<group>"; };
+		C034A2AB1BDA13A100A998FD /* GreateHello.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = GreateHello.mm; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +86,8 @@
 			children = (
 				C034A2881BDA133A00A998FD /* AppDelegate.h */,
 				C034A2891BDA133A00A998FD /* AppDelegate.m */,
+				C034A2AA1BDA13A100A998FD /* GreateHello.h */,
+				C034A2AB1BDA13A100A998FD /* GreateHello.mm */,
 				C034A28B1BDA133A00A998FD /* ViewController.h */,
 				C034A28C1BDA133A00A998FD /* ViewController.m */,
 				C034A28E1BDA133A00A998FD /* Main.storyboard */,
@@ -221,6 +226,7 @@
 			files = (
 				C034A28D1BDA133A00A998FD /* ViewController.m in Sources */,
 				C034A28A1BDA133A00A998FD /* AppDelegate.m in Sources */,
+				C034A2AC1BDA13A100A998FD /* GreateHello.mm in Sources */,
 				C034A2871BDA133A00A998FD /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

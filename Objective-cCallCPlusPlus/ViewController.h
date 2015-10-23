@@ -7,8 +7,10 @@
 //
 
 #import <UIKit/UIKit.h>
-
-@interface ViewController : UIViewController
+@class GreateHello;
+@interface ViewController : UIViewController{
+    
+}
 
 
 @end

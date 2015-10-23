@@ -7,7 +7,7 @@
 //
 
 #import "ViewController.h"
-
+#include "GreateHello.h"
 @interface ViewController ()
 
 @end
@@ -17,6 +17,12 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
+   
+    NSLog(@"dddddddd");
+    GreateHello *test = [[GreateHello alloc]init];
+    [test sayHello];
+    
+   
 }
 
 - (void)didReceiveMemoryWarning {
